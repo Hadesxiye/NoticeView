@@ -1,13 +1,17 @@
 # NoticeView
 A simple notice view with animation。可用于公告，强制更新，各种提示等。
 当前基础版本，自己修改控件配色奥~
-Usage:
+
+# Usage:
 ```
 NoticeView* noticeView = [NoticeView noticeViewInitTo:<#(nonnull UIView *)#>];
 [noticeView show];
 [noticeView hide];
 ```
-Mode:
+# Mode:
+- noticeViewMode_NoneButton
+- noticeViewMode_OneButton
+- noticeViewMode_TwoButton
 ```
 noticeView.mode = noticeViewMode_NoneButton;
 ```
@@ -23,5 +27,6 @@ noticeView.mode = noticeViewMode_TwoButton;
 ```
 ![noticeViewMode_TwoButton](https://github.com/Hadesxiye/NoticeView/blob/master/gif/03.gif)
 ---
-In detail:
+# In detail:
+
 See Example
